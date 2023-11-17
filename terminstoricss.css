@@ -1,0 +1,34 @@
+.head {
+	text-align: center;
+	color: dodgerblue;
+	justify-content: space-between;
+	background: black;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.new_block {
+	color: black;
+	background: dodgerblue;
+	height: 20vh;
+    margin: 0px 5px;
+    padding: 10px;
+    border: 4px black solid;
+    border-radius: 10px;
+}
+.main_sechion {
+	display: flex;
+	justify-content: space-around;
+            width: 90%;
+            margin: auto;
+}
+
+body
+        {
+            background-color: black;
+        }
+        .zag {
+        	text-align: center;
+        	color: whitesmoke;
+        }
