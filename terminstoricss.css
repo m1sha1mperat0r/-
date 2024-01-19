@@ -7,6 +7,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
+font-family: 'Tektur', sans-serif;
 }
 .new_block {
 	color: black;
@@ -14,7 +15,7 @@
 	height: 20vh;
     margin: 0px 5px;
     padding: 10px;
-    border: 4px black solid;
+    border: 4px #1e3799 solid;
     border-radius: 10px;
 }
 .main_sechion {
@@ -26,9 +27,45 @@
 
 body
         {
-            background-color: black;
+            background: url(https://i.pinimg.com/originals/5f/1a/d2/5f1ad27958d12f24895bdb686ef56b65.jpg);
         }
         .zag {
         	text-align: center;
         	color: whitesmoke;
         }
+        .svz {
+        	width:100px ;
+        	height: 100px;
+        	text-align:center;
+   			border:1px blue  solid;
+   			border-radius: 90px;
+   			margin: 5px;
+        }
+        main {
+    height: 100vh;}
+    .robot {
+    	width: 4%;
+    	height: 4%;
+    	padding: 5px;
+    	animation: robot 6s infinite ;
+    }
+    @keyframes robot
+    {
+    	0% {
+    		width: 4%;
+    	height: 4%;
+    	margin-left: 25%;
+    	transform: scale(1, 1);
+    	}
+    	50% {
+    		width: 4%;
+    	height: 4%;
+    	margin-left: 70%;
+    	}
+    	100% {
+    	width: 4%;
+    	height: 4%;
+		margin-left: 25%;
+		transform: scale(-1, 1);
+    	}
+    }
